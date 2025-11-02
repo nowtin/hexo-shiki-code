@@ -17,7 +17,6 @@ const dark = shikiConfig.dark ?? shikiConfig.theme;
 
 let themes = []
 
-console.log('nowtin');
 if (shikiConfig?.customThemesPath) {
   const customThemes = helper.loadShikiThemes(shikiConfig.customThemesPath);
   for (const theme of customThemes) {
